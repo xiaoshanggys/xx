@@ -1,0 +1,16 @@
+后端API服务目录结构示例：
+
+/
+├─ src/
+│   ├─ controllers/      # 路由控制器
+│   ├─ services/         # 业务逻辑
+│   ├─ models/           # 数据模型
+│   ├─ routes/           # 路由定义
+│   ├─ middlewares/      # 中间件（鉴权、日志等）
+│   ├─ utils/            # 工具函数
+│   ├─ config/           # 配置文件
+│   └─ app.js            # 应用入口
+├─ public/               # 静态资源
+├─ logs/                 # 日志
+├─ package.json          # 依赖配置
+└─ ... 

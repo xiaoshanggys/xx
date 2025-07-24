@@ -1,0 +1,19 @@
+商城小程序前端目录结构示例：
+
+/
+├─ pages/                # 各页面目录
+│   ├─ index/            # 首页
+│   ├─ category/         # 分类页
+│   ├─ cart/             # 购物车页
+│   ├─ order/            # 下单/订单页
+│   ├─ address/          # 收货地址页
+│   ├─ user/             # 个人中心页
+│   └─ ...
+├─ components/           # 公共组件
+├─ utils/                # 工具函数
+├─ services/             # API请求封装
+├─ assets/               # 静态资源（图片、样式等）
+├─ app.js                # 小程序入口
+├─ app.json              # 小程序全局配置
+├─ project.config.json   # 项目配置
+└─ ... 
